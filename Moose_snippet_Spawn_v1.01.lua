@@ -17,17 +17,19 @@
     /!\ Attention au accolades, guillemets et virgules
 
     Personalisez le scripts suivant vos besoins.
+    Certaines fonction sont désactivées, supprimez les -- pour activer
 
 
 
     (EN)
     Need Moose lib to be loaded before this script
     Add new trigger, with 'time more' as conditions ans specify few seconds, 
-    in action column load the script (as file or execution with copy/paste in the box - i prefer 2nd solution for this script)
+    in action column, load the script (as file or execution with copy/paste in the box - i prefer 2nd solution for this script)
 
     Be aware with {} "" and ,
 
     Modify params as needed.
+    If -- before functions, it will be ignored
 
 ]]--
 
@@ -41,11 +43,12 @@ proba = 100
 
 if math.random(0,100) <= proba then
 
--- Spawn normal ou dessous si commande radio
+-- Spawn normal ou en-dessous si commande par menu radio
 Sp =SPAWN:New(group)
 --Sp =SPAWN:NewWithAlias(group,group.."-"..math.random(100,999))
 
--- Nb unités, total
+-- Nb dans le groupe X nb de spawn, max spawnable total
+-- exemple : groupe de 3 unités, deux spawns & maximum 5 spawn du groupe >> :InitLimit(6,5)
 :InitLimit( 1, 0 )
 
 -- activé, rayon ext. m, rayon int. m
