@@ -4,9 +4,12 @@ Quelques morceaux de code ("Snippet") à ajuster et intégrer dans vos partie à
 Requiert l'intégration de la librairie Moose  
 
 **MooseRAT** : fonctionnalité Random Air Traffic  
+  
 **Moose_snippet_Spawn** : spawn d'unité  
+  
 **Moose_OpsChief** : fonctionnalité Chief/Auftrag  
-**template_CTLD_map_version** : modèles d'unité pour CTLD à placer dans Saved Game\DCS\StaticTemplate et à appeller dans l'éditeur.  
+  
+**template_CTLD_map_version** : modèles d'unité CTLD à placer dans Saved Game\DCS\StaticTemplate et à appeller dans l'éditeur de mission.  
 
 o7  
 
