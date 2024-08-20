@@ -5,7 +5,7 @@ Requiert l'intégration de la librairie Moose
 
 Rdv sur la page [Releases](https://github.com/Queton1-1/DCS-Moose-Snippets/releases) pour télécharger les snippets.  
 
-Les éléments nommés template_xxxxx sont des modèles à placer dans Saved Game\DCS\StaticTemplate et à appeller dans l'éditeur.
+Les éléments nommés **template_CTLD_map_version** sont des modèles à placer dans Saved Game\DCS\StaticTemplate et à appeller dans l'éditeur.
 
 o7  
 
