@@ -9,8 +9,8 @@ staticTemplate =
 			{
 				[1] = 
 				{
-					["name"] = "Australia",
-					["id"] = 21,
+					["name"] = "CJTF Blue",
+					["id"] = 80,
 					["static"] = 
 					{
 						["group"] = 
@@ -20,7 +20,7 @@ staticTemplate =
 								["hiddenOnMFD"] = true,
 								["heading"] = 0,
 								["hiddenOnPlanner"] = true,
-								["groupId"] = 249,
+								["groupId"] = 132,
 								["hidden"] = true,
 								["units"] = 
 								{
@@ -29,19 +29,19 @@ staticTemplate =
 										["category"] = "Heliports",
 										["shape_name"] = "invisiblefarp",
 										["type"] = "Invisible FARP",
-										["unitId"] = 355,
+										["unitId"] = 199,
 										["heliport_callsign_id"] = 8,
 										["heliport_modulation"] = 0,
 										["rate"] = 100,
-										["y"] = 11620.194540224,
-										["x"] = -422993.26710289,
+										["y"] = 34708.23342063,
+										["x"] = -413230.51368409,
 										["name"] = "template FARP invisible-1",
 										["heliport_frequency"] = 225.1,
 										["heading"] = 0,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = 11620.194540224,
-								["x"] = -422993.26710289,
+								["y"] = 34708.23342063,
+								["x"] = -413230.51368409,
 								["name"] = "template FARP invisible",
 								["route"] = 
 								{
@@ -52,9 +52,9 @@ staticTemplate =
 											["alt"] = 0,
 											["type"] = "",
 											["name"] = "",
-											["y"] = 11620.194540224,
+											["y"] = 34708.23342063,
 											["speed"] = 0,
-											["x"] = -422993.26710289,
+											["x"] = -413230.51368409,
 											["formation_template"] = "",
 											["action"] = "",
 										}, -- end of [1]
@@ -84,13 +84,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21390.147127158,
-												["x"] = -385979.04668436,
+												["y"] = 34633.617877088,
+												["x"] = -413123.53996589,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21390.147127158,
-												["x"] = -385979.04668436,
+												["y"] = 34633.617877088,
+												["x"] = -413123.53996589,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -103,8 +103,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21390.147127158,
-											["x"] = -385979.04668436,
+											["y"] = 34633.617877088,
+											["x"] = -413123.53996589,
 											["name"] = "template AAA Bofors",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -180,7 +180,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 236,
+								["groupId"] = 119,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -189,16 +189,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "bofors40",
-										["unitId"] = 339,
-										["y"] = -21390.147127158,
-										["x"] = -385979.04668436,
+										["unitId"] = 183,
+										["y"] = 34633.617877088,
+										["x"] = -413123.53996589,
 										["name"] = "template AAA Bofors",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21390.147127158,
-								["x"] = -385979.04668436,
+								["y"] = 34633.617877088,
+								["x"] = -413123.53996589,
 								["name"] = "template AAA Bofors",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -219,13 +219,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21390.270111803,
-												["x"] = -386010.87937915,
+												["y"] = 34633.51019246,
+												["x"] = -413155.39624132,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21390.270111803,
-												["x"] = -386010.87937915,
+												["y"] = 34633.51019246,
+												["x"] = -413155.39624132,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -238,8 +238,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21390.270111803,
-											["x"] = -386010.87937915,
+											["y"] = 34633.51019246,
+											["x"] = -413155.39624132,
 											["name"] = "template SAM Avenger",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -354,7 +354,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 237,
+								["groupId"] = 120,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -363,16 +363,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "M1097 Avenger",
-										["unitId"] = 340,
-										["y"] = -21390.270111803,
-										["x"] = -386010.87937915,
+										["unitId"] = 184,
+										["y"] = 34633.51019246,
+										["x"] = -413155.39624132,
 										["name"] = "template SAM Avenger",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21390.270111803,
-								["x"] = -386010.87937915,
+								["y"] = 34633.51019246,
+								["x"] = -413155.39624132,
 								["name"] = "template SAM Avenger",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -393,13 +393,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21384.097496916,
-												["x"] = -386013.01509094,
+												["y"] = 34639.6884401,
+												["x"] = -413157.53054505,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21384.097496916,
-												["x"] = -386013.01509094,
+												["y"] = 34639.6884401,
+												["x"] = -413157.53054505,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -412,8 +412,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21384.097496916,
-											["x"] = -386013.01509094,
+											["y"] = 34639.6884401,
+											["x"] = -413157.53054505,
 											["name"] = "template SAM Linebacker",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -528,7 +528,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 238,
+								["groupId"] = 121,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -537,16 +537,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "M6 Linebacker",
-										["unitId"] = 341,
-										["y"] = -21384.097496916,
-										["x"] = -386013.01509094,
+										["unitId"] = 185,
+										["y"] = 34639.6884401,
+										["x"] = -413157.53054505,
 										["name"] = "template SAM Linebacker",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21384.097496916,
-								["x"] = -386013.01509094,
+								["y"] = 34639.6884401,
+								["x"] = -413157.53054505,
 								["name"] = "template SAM Linebacker",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -567,13 +567,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21413.515205087,
-												["x"] = -385975.60216719,
+												["y"] = 34610.23071864,
+												["x"] = -413120.10420851,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21413.515205087,
-												["x"] = -385975.60216719,
+												["y"] = 34610.23071864,
+												["x"] = -413120.10420851,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -586,8 +586,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21413.515205087,
-											["x"] = -385975.60216719,
+											["y"] = 34610.23071864,
+											["x"] = -413120.10420851,
 											["name"] = "template FOB",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -605,7 +605,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 239,
+								["groupId"] = 122,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -614,16 +614,16 @@ staticTemplate =
 										["skill"] = "Excellent",
 										["coldAtStart"] = false,
 										["type"] = "house2arm",
-										["unitId"] = 342,
-										["y"] = -21413.515205087,
-										["x"] = -385975.60216719,
+										["unitId"] = 186,
+										["y"] = 34610.23071864,
+										["x"] = -413120.10420851,
 										["name"] = "template FOB",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21413.515205087,
-								["x"] = -385975.60216719,
+								["y"] = 34610.23071864,
+								["x"] = -413120.10420851,
 								["name"] = "template FOB",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -644,13 +644,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21408.267107343,
-												["x"] = -385980.33868909,
+												["y"] = 34615.485017729,
+												["x"] = -413124.84169131,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21408.267107343,
-												["x"] = -385980.33868909,
+												["y"] = 34615.485017729,
+												["x"] = -413124.84169131,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -663,8 +663,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21408.267107343,
-											["x"] = -385980.33868909,
+											["y"] = 34615.485017729,
+											["x"] = -413124.84169131,
 											["name"] = "template anti-air",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -741,7 +741,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 240,
+								["groupId"] = 123,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -751,16 +751,16 @@ staticTemplate =
 										["skill"] = "Excellent",
 										["coldAtStart"] = false,
 										["type"] = "Soldier stinger",
-										["unitId"] = 343,
-										["y"] = -21408.267107343,
-										["x"] = -385980.33868909,
+										["unitId"] = 187,
+										["y"] = 34615.485017729,
+										["x"] = -413124.84169131,
 										["name"] = "template anti-air",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21408.267107343,
-								["x"] = -385980.33868909,
+								["y"] = 34615.485017729,
+								["x"] = -413124.84169131,
 								["name"] = "template anti-air",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -781,13 +781,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21366.918271273,
-												["x"] = -385979.86788131,
+												["y"] = 34656.86444135,
+												["x"] = -413124.35053212,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21366.918271273,
-												["x"] = -385979.86788131,
+												["y"] = 34656.86444135,
+												["x"] = -413124.35053212,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -800,8 +800,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21366.918271273,
-											["x"] = -385979.86788131,
+											["y"] = 34656.86444135,
+											["x"] = -413124.35053212,
 											["name"] = "template SAM Nasams",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -896,7 +896,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 241,
+								["groupId"] = 124,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -905,9 +905,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "NASAMS_LN_C",
-										["unitId"] = 344,
-										["y"] = -21366.918271273,
-										["x"] = -385979.86788131,
+										["unitId"] = 188,
+										["y"] = 34656.86444135,
+										["x"] = -413124.35053212,
 										["name"] = "template SAM Nasams-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -917,9 +917,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "NASAMS_Command_Post",
-										["unitId"] = 345,
-										["y"] = -21366.922588873,
-										["x"] = -385988.80413334,
+										["unitId"] = 189,
+										["y"] = 34656.864441347,
+										["x"] = -413133.29338926,
 										["name"] = "template SAM Nasams-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -929,16 +929,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "NASAMS_Radar_MPQ64F1",
-										["unitId"] = 346,
-										["y"] = -21366.813023137,
-										["x"] = -385998.39709808,
+										["unitId"] = 190,
+										["y"] = 34656.978727071,
+										["x"] = -413142.89338926,
 										["name"] = "template SAM Nasams-3",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 								}, -- end of ["units"]
-								["y"] = -21366.918271273,
-								["x"] = -385979.86788131,
+								["y"] = 34656.86444135,
+								["x"] = -413124.35053212,
 								["name"] = "template SAM Nasams",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -959,13 +959,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21378.485589444,
-												["x"] = -386015.80295114,
+												["y"] = 34645.305877789,
+												["x"] = -413160.31775032,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21378.485589444,
-												["x"] = -386015.80295114,
+												["y"] = 34645.305877789,
+												["x"] = -413160.31775032,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -978,8 +978,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21378.485589444,
-											["x"] = -386015.80295114,
+											["y"] = 34645.305877789,
+											["x"] = -413160.31775032,
 											["name"] = "template SAM SA-9",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1075,7 +1075,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 242,
+								["groupId"] = 125,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1084,16 +1084,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Strela-1 9P31",
-										["unitId"] = 347,
-										["y"] = -21378.485589444,
-										["x"] = -386015.80295114,
+										["unitId"] = 191,
+										["y"] = 34645.305877789,
+										["x"] = -413160.31775032,
 										["name"] = "template SAM SA-9",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21378.485589444,
-								["x"] = -386015.80295114,
+								["y"] = 34645.305877789,
+								["x"] = -413160.31775032,
 								["name"] = "template SAM SA-9",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -1114,13 +1114,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21390.190581155,
-												["x"] = -385999.25144411,
+												["y"] = 34633.584160079,
+												["x"] = -413143.75967596,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21390.190581155,
-												["x"] = -385999.25144411,
+												["y"] = 34633.584160079,
+												["x"] = -413143.75967596,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1133,8 +1133,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21390.190581155,
-											["x"] = -385999.25144411,
+											["y"] = 34633.584160079,
+											["x"] = -413143.75967596,
 											["name"] = "template AAA Vulcan",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1230,7 +1230,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 243,
+								["groupId"] = 126,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1239,16 +1239,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Vulcan",
-										["unitId"] = 348,
-										["y"] = -21390.190581155,
-										["x"] = -385999.25144411,
+										["unitId"] = 192,
+										["y"] = 34633.584160079,
+										["x"] = -413143.75967596,
 										["name"] = "template AAA Vulcan",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21390.190581155,
-								["x"] = -385999.25144411,
+								["y"] = 34633.584160079,
+								["x"] = -413143.75967596,
 								["name"] = "template AAA Vulcan",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -1269,13 +1269,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21387.263684476,
-												["x"] = -386000.05438252,
+												["y"] = 34636.51362625,
+												["x"] = -413144.5617917,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21387.263684476,
-												["x"] = -386000.05438252,
+												["y"] = 34636.51362625,
+												["x"] = -413144.5617917,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1288,8 +1288,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21387.263684476,
-											["x"] = -386000.05438252,
+											["y"] = 34636.51362625,
+											["x"] = -413144.5617917,
 											["name"] = "template AAA C-RAM",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1385,7 +1385,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 244,
+								["groupId"] = 127,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1394,16 +1394,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "HEMTT_C-RAM_Phalanx",
-										["unitId"] = 349,
-										["y"] = -21387.263684476,
-										["x"] = -386000.05438252,
+										["unitId"] = 193,
+										["y"] = 34636.51362625,
+										["x"] = -413144.5617917,
 										["name"] = "template AAA C-RAM",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21387.263684476,
-								["x"] = -386000.05438252,
+								["y"] = 34636.51362625,
+								["x"] = -413144.5617917,
 								["name"] = "template AAA C-RAM",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -1424,13 +1424,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21375.172712469,
-												["x"] = -386003.16177488,
+												["y"] = 34648.615111489,
+												["x"] = -413147.66563085,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21375.172712469,
-												["x"] = -386003.16177488,
+												["y"] = 34648.615111489,
+												["x"] = -413147.66563085,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1443,8 +1443,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21375.172712469,
-											["x"] = -386003.16177488,
+											["y"] = 34648.615111489,
+											["x"] = -413147.66563085,
 											["name"] = "template AAA Shilka",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1521,7 +1521,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 245,
+								["groupId"] = 128,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1530,16 +1530,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "ZSU-23-4 Shilka",
-										["unitId"] = 350,
-										["y"] = -21375.172712469,
-										["x"] = -386003.16177488,
+										["unitId"] = 194,
+										["y"] = 34648.615111489,
+										["x"] = -413147.66563085,
 										["name"] = "template AAA Shilka",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21375.172712469,
-								["x"] = -386003.16177488,
+								["y"] = 34648.615111489,
+								["x"] = -413147.66563085,
 								["name"] = "template AAA Shilka",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -1560,13 +1560,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21383.092624307,
-												["x"] = -385981.6398435,
+												["y"] = 34640.678891141,
+												["x"] = -413126.13162833,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21383.092624307,
-												["x"] = -385981.6398435,
+												["y"] = 34640.678891141,
+												["x"] = -413126.13162833,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1579,8 +1579,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21383.092624307,
-											["x"] = -385981.6398435,
+											["y"] = 34640.678891141,
+											["x"] = -413126.13162833,
 											["name"] = "template AAA S-60",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1656,7 +1656,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 246,
+								["groupId"] = 129,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1665,9 +1665,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "S-60_Type59_Artillery",
-										["unitId"] = 351,
-										["y"] = -21383.092624307,
-										["x"] = -385981.6398435,
+										["unitId"] = 195,
+										["y"] = 34640.678891141,
+										["x"] = -413126.13162833,
 										["name"] = "template AAA S-60-1",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
@@ -1677,16 +1677,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "SON_9",
-										["unitId"] = 352,
-										["y"] = -21383.14333659,
-										["x"] = -385991.433686,
+										["unitId"] = 196,
+										["y"] = 34640.63287656,
+										["x"] = -413135.93273205,
 										["name"] = "template AAA S-60-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 								}, -- end of ["units"]
-								["y"] = -21383.092624307,
-								["x"] = -385981.6398435,
+								["y"] = 34640.678891141,
+								["x"] = -413126.13162833,
 								["name"] = "template AAA S-60",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -1707,13 +1707,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21387.520548652,
-												["x"] = -386011.94707226,
+												["y"] = 34636.262320949,
+												["x"] = -413156.46339318,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21387.520548652,
-												["x"] = -386011.94707226,
+												["y"] = 34636.262320949,
+												["x"] = -413156.46339318,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1726,8 +1726,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21387.520548652,
-											["x"] = -386011.94707226,
+											["y"] = 34636.262320949,
+											["x"] = -413156.46339318,
 											["name"] = "template SAM Chaparral",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1842,7 +1842,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 247,
+								["groupId"] = 130,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -1851,16 +1851,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "M48 Chaparral",
-										["unitId"] = 353,
-										["y"] = -21387.520548652,
-										["x"] = -386011.94707226,
+										["unitId"] = 197,
+										["y"] = 34636.262320949,
+										["x"] = -413156.46339318,
 										["name"] = "template SAM Chaparral",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21387.520548652,
-								["x"] = -386011.94707226,
+								["y"] = 34636.262320949,
+								["x"] = -413156.46339318,
 								["name"] = "template SAM Chaparral",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -1881,13 +1881,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21374.869062893,
-												["x"] = -386016.99934704,
+												["y"] = 34648.925678011,
+												["x"] = -413161.51328067,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21374.869062893,
-												["x"] = -386016.99934704,
+												["y"] = 34648.925678011,
+												["x"] = -413161.51328067,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -1900,8 +1900,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21374.869062893,
-											["x"] = -386016.99934704,
+											["y"] = 34648.925678011,
+											["x"] = -413161.51328067,
 											["name"] = "template SAM SA-19",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -1997,7 +1997,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 248,
+								["groupId"] = 131,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2006,16 +2006,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "2S6 Tunguska",
-										["unitId"] = 354,
-										["y"] = -21374.869062893,
-										["x"] = -386016.99934704,
+										["unitId"] = 198,
+										["y"] = 34648.925678011,
+										["x"] = -413161.51328067,
 										["name"] = "template SAM SA-19",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21374.869062893,
-								["x"] = -386016.99934704,
+								["y"] = 34648.925678011,
+								["x"] = -413161.51328067,
 								["name"] = "template SAM SA-19",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2036,13 +2036,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21410.073909961,
-												["x"] = -385978.87458396,
+												["y"] = 34613.676160671,
+												["x"] = -413123.37737844,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21410.073909961,
-												["x"] = -385978.87458396,
+												["y"] = 34613.676160671,
+												["x"] = -413123.37737844,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2055,8 +2055,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21410.073909961,
-											["x"] = -385978.87458396,
+											["y"] = 34613.676160671,
+											["x"] = -413123.37737844,
 											["name"] = "template anti-tank",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2133,7 +2133,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 250,
+								["groupId"] = 133,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2142,16 +2142,16 @@ staticTemplate =
 										["skill"] = "Excellent",
 										["coldAtStart"] = false,
 										["type"] = "Soldier RPG",
-										["unitId"] = 356,
-										["y"] = -21410.073909961,
-										["x"] = -385978.87458396,
+										["unitId"] = 200,
+										["y"] = 34613.676160671,
+										["x"] = -413123.37737844,
 										["name"] = "template anti-tank",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21410.073909961,
-								["x"] = -385978.87458396,
+								["y"] = 34613.676160671,
+								["x"] = -413123.37737844,
 								["name"] = "template anti-tank",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2172,13 +2172,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21359.1533078,
-												["x"] = -385981.2706013,
+												["y"] = 34664.635869917,
+												["x"] = -413125.75053212,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21359.1533078,
-												["x"] = -385981.2706013,
+												["y"] = 34664.635869917,
+												["x"] = -413125.75053212,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2191,8 +2191,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21359.1533078,
-											["x"] = -385981.2706013,
+											["y"] = 34664.635869917,
+											["x"] = -413125.75053212,
 											["name"] = "template SAM SA-15",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2288,7 +2288,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 251,
+								["groupId"] = 134,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2297,16 +2297,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Tor 9A331",
-										["unitId"] = 357,
-										["y"] = -21359.1533078,
-										["x"] = -385981.2706013,
+										["unitId"] = 201,
+										["y"] = 34664.635869917,
+										["x"] = -413125.75053212,
 										["name"] = "template SAM SA-15",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21359.1533078,
-								["x"] = -385981.2706013,
+								["y"] = 34664.635869917,
+								["x"] = -413125.75053212,
 								["name"] = "template SAM SA-15",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2327,13 +2327,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21384.092881142,
-												["x"] = -386000.92713652,
+												["y"] = 34639.687214599,
+												["x"] = -413145.43365663,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21384.092881142,
-												["x"] = -386000.92713652,
+												["y"] = 34639.687214599,
+												["x"] = -413145.43365663,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2346,8 +2346,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21384.092881142,
-											["x"] = -386000.92713652,
+											["y"] = 34639.687214599,
+											["x"] = -413145.43365663,
 											["name"] = "template AAA Gepard",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2424,7 +2424,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 252,
+								["groupId"] = 135,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2433,16 +2433,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Gepard",
-										["unitId"] = 358,
-										["y"] = -21384.092881142,
-										["x"] = -386000.92713652,
+										["unitId"] = 202,
+										["y"] = 34639.687214599,
+										["x"] = -413145.43365663,
 										["name"] = "template AAA Gepard",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21384.092881142,
-								["x"] = -386000.92713652,
+								["y"] = 34639.687214599,
+								["x"] = -413145.43365663,
 								["name"] = "template AAA Gepard",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2463,13 +2463,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21378.587557147,
-												["x"] = -386002.497996,
+												["y"] = 34645.197400957,
+												["x"] = -413147.0030135,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21378.587557147,
-												["x"] = -386002.497996,
+												["y"] = 34645.197400957,
+												["x"] = -413147.0030135,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2482,8 +2482,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21378.587557147,
-											["x"] = -386002.497996,
+											["y"] = 34645.197400957,
+											["x"] = -413147.0030135,
 											["name"] = "template AAA ZU-23",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2560,7 +2560,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 253,
+								["groupId"] = 136,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2569,16 +2569,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Ural-375 ZU-23",
-										["unitId"] = 359,
-										["y"] = -21378.587557147,
-										["x"] = -386002.497996,
+										["unitId"] = 203,
+										["y"] = 34645.197400957,
+										["x"] = -413147.0030135,
 										["name"] = "template AAA ZU-23",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21378.587557147,
-								["x"] = -386002.497996,
+								["y"] = 34645.197400957,
+								["x"] = -413147.0030135,
 								["name"] = "template AAA ZU-23",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2599,13 +2599,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21381.165967631,
-												["x"] = -386001.69522608,
+												["y"] = 34642.616680771,
+												["x"] = -413146.20089777,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21381.165967631,
-												["x"] = -386001.69522608,
+												["y"] = 34642.616680771,
+												["x"] = -413146.20089777,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2618,8 +2618,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21381.165967631,
-											["x"] = -386001.69522608,
+											["y"] = 34642.616680771,
+											["x"] = -413146.20089777,
 											["name"] = "template AAA LC ZU-23",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2696,7 +2696,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 254,
+								["groupId"] = 137,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2705,16 +2705,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "tt_ZU-23",
-										["unitId"] = 360,
-										["y"] = -21381.165967631,
-										["x"] = -386001.69522608,
+										["unitId"] = 204,
+										["y"] = 34642.616680771,
+										["x"] = -413146.20089777,
 										["name"] = "template AAA LC ZU-23",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21381.165967631,
-								["x"] = -386001.69522608,
+								["y"] = 34642.616680771,
+								["x"] = -413146.20089777,
 								["name"] = "template AAA LC ZU-23",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2735,13 +2735,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21387.113049808,
-												["x"] = -385980.33560778,
+												["y"] = 34636.654838802,
+												["x"] = -413124.82837389,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21387.113049808,
-												["x"] = -385980.33560778,
+												["y"] = 34636.654838802,
+												["x"] = -413124.82837389,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2754,8 +2754,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21387.113049808,
-											["x"] = -385980.33560778,
+											["y"] = 34636.654838802,
+											["x"] = -413124.82837389,
 											["name"] = "template AAA KS-19",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2831,7 +2831,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 255,
+								["groupId"] = 138,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2840,9 +2840,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "KS-19",
-										["unitId"] = 361,
-										["y"] = -21387.113049808,
-										["x"] = -385980.33560778,
+										["unitId"] = 205,
+										["y"] = 34636.654838802,
+										["x"] = -413124.82837389,
 										["name"] = "template AAA KS-19-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -2852,16 +2852,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "SON_9",
-										["unitId"] = 362,
-										["y"] = -21387.118314973,
-										["x"] = -385991.23300656,
+										["unitId"] = 206,
+										["y"] = 34636.6548388,
+										["x"] = -413135.73382731,
 										["name"] = "template AAA KS-19-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 								}, -- end of ["units"]
-								["y"] = -21387.113049808,
-								["x"] = -385980.33560778,
+								["y"] = 34636.654838802,
+								["x"] = -413124.82837389,
 								["name"] = "template AAA KS-19",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -2882,13 +2882,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21411.794557529,
-												["x"] = -385977.23837558,
+												["y"] = 34611.95343965,
+												["x"] = -413121.74079348,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21411.794557529,
-												["x"] = -385977.23837558,
+												["y"] = 34611.95343965,
+												["x"] = -413121.74079348,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -2901,8 +2901,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21411.794557529,
-											["x"] = -385977.23837558,
+											["y"] = 34611.95343965,
+											["x"] = -413121.74079348,
 											["name"] = "template soldier",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -2979,7 +2979,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 256,
+								["groupId"] = 139,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -2988,16 +2988,16 @@ staticTemplate =
 										["skill"] = "Excellent",
 										["coldAtStart"] = false,
 										["type"] = "Soldier M249",
-										["unitId"] = 363,
-										["y"] = -21411.794557529,
-										["x"] = -385977.23837558,
+										["unitId"] = 207,
+										["y"] = 34611.95343965,
+										["x"] = -413121.74079348,
 										["name"] = "template soldier",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21411.794557529,
-								["x"] = -385977.23837558,
+								["y"] = 34611.95343965,
+								["x"] = -413121.74079348,
 								["name"] = "template soldier",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = true,
@@ -3018,13 +3018,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21406.535076312,
-												["x"] = -385988.08500292,
+												["y"] = 34617.222085061,
+												["x"] = -413132.59289096,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21406.535076312,
-												["x"] = -385988.08500292,
+												["y"] = 34617.222085061,
+												["x"] = -413132.59289096,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3037,8 +3037,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21406.535076312,
-											["x"] = -385988.08500292,
+											["y"] = 34617.222085061,
+											["x"] = -413132.59289096,
 											["name"] = "template M939",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -3115,7 +3115,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 257,
+								["groupId"] = 140,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3124,16 +3124,16 @@ staticTemplate =
 										["skill"] = "Excellent",
 										["coldAtStart"] = false,
 										["type"] = "M 818",
-										["unitId"] = 364,
-										["y"] = -21406.535076312,
-										["x"] = -385988.08500292,
+										["unitId"] = 208,
+										["y"] = 34617.222085061,
+										["x"] = -413132.59289096,
 										["name"] = "template M939",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21406.535076312,
-								["x"] = -385988.08500292,
+								["y"] = 34617.222085061,
+								["x"] = -413132.59289096,
 								["name"] = "template M939",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -3154,13 +3154,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21403.224299804,
-												["x"] = -385989.20909176,
+												["y"] = 34620.535872432,
+												["x"] = -413133.71620871,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21403.224299804,
-												["x"] = -385989.20909176,
+												["y"] = 34620.535872432,
+												["x"] = -413133.71620871,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3173,8 +3173,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21403.224299804,
-											["x"] = -385989.20909176,
+											["y"] = 34620.535872432,
+											["x"] = -413133.71620871,
 											["name"] = "template KrAZ-6322",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -3251,7 +3251,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 258,
+								["groupId"] = 141,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3260,16 +3260,16 @@ staticTemplate =
 										["skill"] = "Excellent",
 										["coldAtStart"] = false,
 										["type"] = "KrAZ6322",
-										["unitId"] = 365,
-										["y"] = -21403.224299804,
-										["x"] = -385989.20909176,
+										["unitId"] = 209,
+										["y"] = 34620.535872432,
+										["x"] = -413133.71620871,
 										["name"] = "template KrAZ-6322",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21403.224299804,
-								["x"] = -385989.20909176,
+								["y"] = 34620.535872432,
+								["x"] = -413133.71620871,
 								["name"] = "template KrAZ-6322",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -3290,13 +3290,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21381.154837956,
-												["x"] = -386014.52333477,
+												["y"] = 34642.634021319,
+												["x"] = -413159.03847975,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21381.154837956,
-												["x"] = -386014.52333477,
+												["y"] = 34642.634021319,
+												["x"] = -413159.03847975,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3309,8 +3309,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21381.154837956,
-											["x"] = -386014.52333477,
+											["y"] = 34642.634021319,
+											["x"] = -413159.03847975,
 											["name"] = "template SAM Rapier",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -3405,7 +3405,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 259,
+								["groupId"] = 142,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3414,9 +3414,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "rapier_fsa_blindfire_radar",
-										["unitId"] = 366,
-										["y"] = -21381.154837956,
-										["x"] = -386014.52333477,
+										["unitId"] = 210,
+										["y"] = 34642.634021319,
+										["x"] = -413159.03847975,
 										["name"] = "template SAM Rapier-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -3426,9 +3426,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "rapier_fsa_launcher",
-										["unitId"] = 367,
-										["y"] = -21381.079448174,
-										["x"] = -386019.31877319,
+										["unitId"] = 211,
+										["y"] = 34642.711785947,
+										["x"] = -413163.83742503,
 										["name"] = "template SAM Rapier-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -3438,16 +3438,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "rapier_fsa_optical_tracker_unit",
-										["unitId"] = 368,
-										["y"] = -21381.132479174,
-										["x"] = -386010.89639937,
+										["unitId"] = 212,
+										["y"] = 34642.654643088,
+										["x"] = -413155.4088536,
 										["name"] = "template SAM Rapier-3",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 								}, -- end of ["units"]
-								["y"] = -21381.154837956,
-								["x"] = -386014.52333477,
+								["y"] = 34642.634021319,
+								["x"] = -413159.03847975,
 								["name"] = "template SAM Rapier",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -3468,13 +3468,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21362.69315331,
-												["x"] = -385980.49803111,
+												["y"] = 34661.09301278,
+												["x"] = -413124.97910355,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21362.69315331,
-												["x"] = -385980.49803111,
+												["y"] = 34661.09301278,
+												["x"] = -413124.97910355,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3487,8 +3487,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21362.69315331,
-											["x"] = -385980.49803111,
+											["y"] = 34661.09301278,
+											["x"] = -413124.97910355,
 											["name"] = "template SAM SA-8",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -3584,7 +3584,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 260,
+								["groupId"] = 143,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3593,16 +3593,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Osa 9A33 ln",
-										["unitId"] = 369,
-										["y"] = -21362.69315331,
-										["x"] = -385980.49803111,
+										["unitId"] = 213,
+										["y"] = 34661.09301278,
+										["x"] = -413124.97910355,
 										["name"] = "template SAM SA-8",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21362.69315331,
-								["x"] = -385980.49803111,
+								["y"] = 34661.09301278,
+								["x"] = -413124.97910355,
 								["name"] = "template SAM SA-8",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -3624,13 +3624,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21354.75287867,
-												["x"] = -385982.96925366,
+												["y"] = 34669.040399798,
+												["x"] = -413127.44831083,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21354.75287867,
-												["x"] = -385982.96925366,
+												["y"] = 34669.040399798,
+												["x"] = -413127.44831083,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3643,8 +3643,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21354.75287867,
-											["x"] = -385982.96925366,
+											["y"] = 34669.040399798,
+											["x"] = -413127.44831083,
 											["name"] = "template SAM SA-6",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -3740,7 +3740,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 261,
+								["groupId"] = 144,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3749,9 +3749,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Kub 2P25 ln",
-										["unitId"] = 370,
-										["y"] = -21354.75287867,
-										["x"] = -385982.96925366,
+										["unitId"] = 214,
+										["y"] = 34669.040399798,
+										["x"] = -413127.44831083,
 										["name"] = "template SAM SA-6-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -3761,16 +3761,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Kub 1S91 str",
-										["unitId"] = 371,
-										["y"] = -21354.588778346,
-										["x"] = -385997.87260661,
+										["unitId"] = 215,
+										["y"] = 34669.211828378,
+										["x"] = -413142.36259654,
 										["name"] = "template SAM SA-6-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [2]
 								}, -- end of ["units"]
-								["y"] = -21354.75287867,
-								["x"] = -385982.96925366,
+								["y"] = 34669.040399798,
+								["x"] = -413127.44831083,
 								["name"] = "template SAM SA-6",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -3791,13 +3791,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21400.280874808,
-												["x"] = -386011.03649879,
+												["y"] = 34623.492044962,
+												["x"] = -413155.55831999,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21400.280874808,
-												["x"] = -386011.03649879,
+												["y"] = 34623.492044962,
+												["x"] = -413155.55831999,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3810,8 +3810,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21400.280874808,
-											["x"] = -386011.03649879,
+											["y"] = 34623.492044962,
+											["x"] = -413155.55831999,
 											["name"] = "template APC BTR-82A",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -3888,7 +3888,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 262,
+								["groupId"] = 145,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -3897,16 +3897,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "BTR-82A",
-										["unitId"] = 372,
-										["y"] = -21400.280874808,
-										["x"] = -386011.03649879,
+										["unitId"] = 216,
+										["y"] = 34623.492044962,
+										["x"] = -413155.55831999,
 										["name"] = "template APC BTR-82A",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21400.280874808,
-								["x"] = -386011.03649879,
+								["y"] = 34623.492044962,
+								["x"] = -413155.55831999,
 								["name"] = "template APC BTR-82A",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -3927,13 +3927,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21401.38851737,
-												["x"] = -386000.52066072,
+												["y"] = 34622.378492338,
+												["x"] = -413145.03524765,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21401.38851737,
-												["x"] = -386000.52066072,
+												["y"] = 34622.378492338,
+												["x"] = -413145.03524765,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -3946,8 +3946,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21401.38851737,
-											["x"] = -386000.52066072,
+											["y"] = 34622.378492338,
+											["x"] = -413145.03524765,
 											["name"] = "template BTR-RD",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4024,7 +4024,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 263,
+								["groupId"] = 146,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4033,16 +4033,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "BTR_D",
-										["unitId"] = 373,
-										["y"] = -21401.38851737,
-										["x"] = -386000.52066072,
+										["unitId"] = 217,
+										["y"] = 34622.378492338,
+										["x"] = -413145.03524765,
 										["name"] = "template BTR-RD",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21401.38851737,
-								["x"] = -386000.52066072,
+								["y"] = 34622.378492338,
+								["x"] = -413145.03524765,
 								["name"] = "template BTR-RD",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4063,13 +4063,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21407.401227525,
-												["x"] = -386008.80759582,
+												["y"] = 34616.365308139,
+												["x"] = -413153.33121473,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21407.401227525,
-												["x"] = -386008.80759582,
+												["y"] = 34616.365308139,
+												["x"] = -413153.33121473,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4082,8 +4082,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21407.401227525,
-											["x"] = -386008.80759582,
+											["y"] = 34616.365308139,
+											["x"] = -413153.33121473,
 											["name"] = "template APC Stryker",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4179,7 +4179,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 264,
+								["groupId"] = 147,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4188,16 +4188,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "M1126 Stryker ICV",
-										["unitId"] = 374,
-										["y"] = -21407.401227525,
-										["x"] = -386008.80759582,
+										["unitId"] = 218,
+										["y"] = 34616.365308139,
+										["x"] = -413153.33121473,
 										["name"] = "template APC Stryker",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21407.401227525,
-								["x"] = -386008.80759582,
+								["y"] = 34616.365308139,
+								["x"] = -413153.33121473,
 								["name"] = "template APC Stryker",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4218,13 +4218,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21404.614849912,
-												["x"] = -385999.35073409,
+												["y"] = 34619.149189711,
+												["x"] = -413143.86601739,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21404.614849912,
-												["x"] = -385999.35073409,
+												["y"] = 34619.149189711,
+												["x"] = -413143.86601739,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4237,8 +4237,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21404.614849912,
-											["x"] = -385999.35073409,
+											["y"] = 34619.149189711,
+											["x"] = -413143.86601739,
 											["name"] = "template ATGM Stryker",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4334,7 +4334,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 265,
+								["groupId"] = 148,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4343,16 +4343,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "M1134 Stryker ATGM",
-										["unitId"] = 375,
-										["y"] = -21404.614849912,
-										["x"] = -385999.35073409,
+										["unitId"] = 219,
+										["y"] = 34619.149189711,
+										["x"] = -413143.86601739,
 										["name"] = "template ATGM Stryker",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21404.614849912,
-								["x"] = -385999.35073409,
+								["y"] = 34619.149189711,
+								["x"] = -413143.86601739,
 								["name"] = "template ATGM Stryker",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4373,13 +4373,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21410.571977672,
-												["x"] = -386007.7489691,
+												["y"] = 34613.19168315,
+												["x"] = -413152.27333973,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21410.571977672,
-												["x"] = -386007.7489691,
+												["y"] = 34613.19168315,
+												["x"] = -413152.27333973,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4392,8 +4392,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21410.571977672,
-											["x"] = -386007.7489691,
+											["y"] = 34613.19168315,
+											["x"] = -413152.27333973,
 											["name"] = "template APC MRAP",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4489,7 +4489,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 266,
+								["groupId"] = 149,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4498,16 +4498,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "MaxxPro_MRAP",
-										["unitId"] = 376,
-										["y"] = -21410.571977672,
-										["x"] = -386007.7489691,
+										["unitId"] = 220,
+										["y"] = 34613.19168315,
+										["x"] = -413152.27333973,
 										["name"] = "template APC MRAP",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21410.571977672,
-								["x"] = -386007.7489691,
+								["y"] = 34613.19168315,
+								["x"] = -413152.27333973,
 								["name"] = "template APC MRAP",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4528,13 +4528,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21407.674327741,
-												["x"] = -385998.29216117,
+												["y"] = 34616.08691998,
+												["x"] = -413142.80814239,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21407.674327741,
-												["x"] = -385998.29216117,
+												["y"] = 34616.08691998,
+												["x"] = -413142.80814239,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4547,8 +4547,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21407.674327741,
-											["x"] = -385998.29216117,
+											["y"] = 34616.08691998,
+											["x"] = -413142.80814239,
 											["name"] = "template ATGM VAB",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4644,7 +4644,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 267,
+								["groupId"] = 150,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4653,16 +4653,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "VAB_Mephisto",
-										["unitId"] = 377,
-										["y"] = -21407.674327741,
-										["x"] = -385998.29216117,
+										["unitId"] = 221,
+										["y"] = 34616.08691998,
+										["x"] = -413142.80814239,
 										["name"] = "template ATGM VAB",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21407.674327741,
-								["x"] = -385998.29216117,
+								["y"] = 34616.08691998,
+								["x"] = -413142.80814239,
 								["name"] = "template ATGM VAB",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4683,13 +4683,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21407.886575419,
-												["x"] = -386021.00645086,
+												["y"] = 34615.885496909,
+												["x"] = -413165.53931823,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21407.886575419,
-												["x"] = -386021.00645086,
+												["y"] = 34615.885496909,
+												["x"] = -413165.53931823,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4702,8 +4702,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21407.886575419,
-											["x"] = -386021.00645086,
+											["y"] = 34615.885496909,
+											["x"] = -413165.53931823,
 											["name"] = "template MBT Leclerc",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4780,7 +4780,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 268,
+								["groupId"] = 151,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4789,16 +4789,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Leclerc",
-										["unitId"] = 378,
-										["y"] = -21407.886575419,
-										["x"] = -386021.00645086,
+										["unitId"] = 222,
+										["y"] = 34615.885496909,
+										["x"] = -413165.53931823,
 										["name"] = "template MBT Leclerc",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21407.886575419,
-								["x"] = -386021.00645086,
+								["y"] = 34615.885496909,
+								["x"] = -413165.53931823,
 								["name"] = "template MBT Leclerc",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4819,13 +4819,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21403.457458172,
-												["x"] = -386022.05099452,
+												["y"] = 34620.318419969,
+												["x"] = -413166.58249101,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21403.457458172,
-												["x"] = -386022.05099452,
+												["y"] = 34620.318419969,
+												["x"] = -413166.58249101,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4838,8 +4838,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21403.457458172,
-											["x"] = -386022.05099452,
+											["y"] = 34620.318419969,
+											["x"] = -413166.58249101,
 											["name"] = "template MBT T-72B",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -4916,7 +4916,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 269,
+								["groupId"] = 152,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -4925,16 +4925,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "T-72B",
-										["unitId"] = 379,
-										["y"] = -21403.457458172,
-										["x"] = -386022.05099452,
+										["unitId"] = 223,
+										["y"] = 34620.318419969,
+										["x"] = -413166.58249101,
 										["name"] = "template MBT T-72B",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21403.457458172,
-								["x"] = -386022.05099452,
+								["y"] = 34620.318419969,
+								["x"] = -413166.58249101,
 								["name"] = "template MBT T-72B",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -4955,13 +4955,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21404.119231939,
-												["x"] = -386009.92191283,
+												["y"] = 34619.650288401,
+												["x"] = -413154.44476736,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21404.119231939,
-												["x"] = -386009.92191283,
+												["y"] = 34619.650288401,
+												["x"] = -413154.44476736,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -4974,8 +4974,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21404.119231939,
-											["x"] = -386009.92191283,
+											["y"] = 34619.650288401,
+											["x"] = -413154.44476736,
 											["name"] = "template IFV Bradley",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -5071,7 +5071,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 270,
+								["groupId"] = 153,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5080,16 +5080,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "M-2 Bradley",
-										["unitId"] = 380,
-										["y"] = -21404.119231939,
-										["x"] = -386009.92191283,
+										["unitId"] = 224,
+										["y"] = 34619.650288401,
+										["x"] = -413154.44476736,
 										["name"] = "template IFV Bradley",
 										["heading"] = 0,
 										["playerCanDrive"] = true,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21404.119231939,
-								["x"] = -386009.92191283,
+								["y"] = 34619.650288401,
+								["x"] = -413154.44476736,
 								["name"] = "template IFV Bradley",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -5111,13 +5111,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21358.977660178,
-												["x"] = -386008.22986123,
+												["y"] = 34664.824683589,
+												["x"] = -413152.72962735,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21358.977660178,
-												["x"] = -386008.22986123,
+												["y"] = 34664.824683589,
+												["x"] = -413152.72962735,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -5130,8 +5130,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21358.977660178,
-											["x"] = -386008.22986123,
+											["y"] = 34664.824683589,
+											["x"] = -413152.72962735,
 											["name"] = "template Hawk",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -5226,7 +5226,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 271,
+								["groupId"] = 154,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5235,9 +5235,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Hawk pcp",
-										["unitId"] = 381,
-										["y"] = -21358.977660178,
-										["x"] = -386008.22986123,
+										["unitId"] = 225,
+										["y"] = 34664.824683589,
+										["x"] = -413152.72962735,
 										["name"] = "template Hawk-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -5247,9 +5247,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Hawk tr",
-										["unitId"] = 382,
-										["y"] = -21334.539547204,
-										["x"] = -386006.17456465,
+										["unitId"] = 226,
+										["y"] = 34689.280015305,
+										["x"] = -413150.66098978,
 										["name"] = "template Hawk-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -5259,9 +5259,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Hawk sr",
-										["unitId"] = 383,
-										["y"] = -21351.612261866,
-										["x"] = -386005.62389664,
+										["unitId"] = 227,
+										["y"] = 34672.194310947,
+										["x"] = -413150.11817407,
 										["name"] = "template Hawk-3",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -5271,9 +5271,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Hawk cwar",
-										["unitId"] = 384,
-										["y"] = -21343.595237134,
-										["x"] = -386013.86304813,
+										["unitId"] = 228,
+										["y"] = 34680.221294064,
+										["x"] = -413158.35953512,
 										["name"] = "template Hawk-4",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -5283,16 +5283,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "Hawk ln",
-										["unitId"] = 385,
-										["y"] = -21343.600622665,
-										["x"] = -386025.06558353,
+										["unitId"] = 229,
+										["y"] = 34680.221321035,
+										["x"] = -413169.57035068,
 										["name"] = "template Hawk-5",
 										["heading"] = 1.5707963267949,
 										["playerCanDrive"] = false,
 									}, -- end of [5]
 								}, -- end of ["units"]
-								["y"] = -21358.977660178,
-								["x"] = -386008.22986123,
+								["y"] = 34664.824683589,
+								["x"] = -413152.72962735,
 								["name"] = "template Hawk",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -5314,13 +5314,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21341.082626722,
-												["x"] = -385996.07380573,
+												["y"] = 34682.72717574,
+												["x"] = -413140.55593269,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21341.082626722,
-												["x"] = -385996.07380573,
+												["y"] = 34682.72717574,
+												["x"] = -413140.55593269,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -5333,8 +5333,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21341.082626722,
-											["x"] = -385996.07380573,
+											["y"] = 34682.72717574,
+											["x"] = -413140.55593269,
 											["name"] = "template SAM SA-11",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -5430,7 +5430,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 272,
+								["groupId"] = 155,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5439,9 +5439,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "SA-11 Buk CC 9S470M1",
-										["unitId"] = 386,
-										["y"] = -21341.082626722,
-										["x"] = -385996.07380573,
+										["unitId"] = 230,
+										["y"] = 34682.72717574,
+										["x"] = -413140.55593269,
 										["name"] = "template SAM SA-11-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -5451,9 +5451,9 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "SA-11 Buk SR 9S18M1",
-										["unitId"] = 387,
-										["y"] = -21327.369805969,
-										["x"] = -386008.25716666,
+										["unitId"] = 231,
+										["y"] = 34696.456106758,
+										["x"] = -413152.74166218,
 										["name"] = "template SAM SA-11-2",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
@@ -5463,16 +5463,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "SA-11 Buk LN 9A310M1",
-										["unitId"] = 388,
-										["y"] = -21340.86720163,
-										["x"] = -386021.74160822,
+										["unitId"] = 232,
+										["y"] = 34682.955171979,
+										["x"] = -413166.24259696,
 										["name"] = "template SAM SA-11-3",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [3]
 								}, -- end of ["units"]
-								["y"] = -21341.082626722,
-								["x"] = -385996.07380573,
+								["y"] = 34682.72717574,
+								["x"] = -413140.55593269,
 								["name"] = "template SAM SA-11",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -5493,13 +5493,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21417.374880705,
-												["x"] = -385987.50299871,
+												["y"] = 34606.37392094,
+												["x"] = -413132.01570076,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21417.374880705,
-												["x"] = -385987.50299871,
+												["y"] = 34606.37392094,
+												["x"] = -413132.01570076,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -5512,8 +5512,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21417.374880705,
-											["x"] = -385987.50299871,
+											["y"] = 34606.37392094,
+											["x"] = -413132.01570076,
 											["name"] = "template EWR AN/FPS-117",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -5640,7 +5640,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 273,
+								["groupId"] = 156,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5649,16 +5649,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "FPS-117",
-										["unitId"] = 389,
-										["y"] = -21417.374880705,
-										["x"] = -385987.50299871,
+										["unitId"] = 233,
+										["y"] = 34606.37392094,
+										["x"] = -413132.01570076,
 										["name"] = "template EWR AN/FPS-117-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21417.374880705,
-								["x"] = -385987.50299871,
+								["y"] = 34606.37392094,
+								["x"] = -413132.01570076,
 								["name"] = "template EWR AN/FPS-117",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
@@ -5679,13 +5679,13 @@ staticTemplate =
 										{
 											[1] = 
 											{
-												["y"] = -21417.456251248,
-												["x"] = -386004.41239775,
+												["y"] = 34606.30066582,
+												["x"] = -413148.93763345,
 											}, -- end of [1]
 											[2] = 
 											{
-												["y"] = -21417.456251248,
-												["x"] = -386004.41239775,
+												["y"] = 34606.30066582,
+												["x"] = -413148.93763345,
 											}, -- end of [2]
 										}, -- end of [1]
 									}, -- end of ["spans"]
@@ -5698,8 +5698,8 @@ staticTemplate =
 											["ETA"] = 0,
 											["alt_type"] = "BARO",
 											["formation_template"] = "",
-											["y"] = -21417.456251248,
-											["x"] = -386004.41239775,
+											["y"] = 34606.30066582,
+											["x"] = -413148.93763345,
 											["name"] = "template EWR 1L13",
 											["ETA_locked"] = true,
 											["speed"] = 0,
@@ -5826,7 +5826,7 @@ staticTemplate =
 									}, -- end of ["points"]
 									["routeRelativeTOT"] = true,
 								}, -- end of ["route"]
-								["groupId"] = 274,
+								["groupId"] = 157,
 								["hidden"] = false,
 								["units"] = 
 								{
@@ -5835,16 +5835,16 @@ staticTemplate =
 										["skill"] = "High",
 										["coldAtStart"] = false,
 										["type"] = "1L13 EWR",
-										["unitId"] = 390,
-										["y"] = -21417.456251248,
-										["x"] = -386004.41239775,
+										["unitId"] = 234,
+										["y"] = 34606.30066582,
+										["x"] = -413148.93763345,
 										["name"] = "template EWR 1L13-1",
 										["heading"] = 0,
 										["playerCanDrive"] = false,
 									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = -21417.456251248,
-								["x"] = -386004.41239775,
+								["y"] = 34606.30066582,
+								["x"] = -413148.93763345,
 								["name"] = "template EWR 1L13",
 								["start_time"] = 0,
 								["hiddenOnPlanner"] = false,
