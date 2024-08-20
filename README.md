@@ -8,6 +8,8 @@ Requiert l'intégration de la librairie Moose
 **Moose_snippet_Spawn** : spawn d'unité  
   
 **Moose_OpsChief** : fonctionnalité Chief/Auftrag  
+
+**MooseCTLD** : CTLD based on Moose
   
 **template_CTLD_map_version** : modèles d'unité CTLD à placer dans Saved Game\DCS\StaticTemplate et à appeller dans l'éditeur de mission.  
 
