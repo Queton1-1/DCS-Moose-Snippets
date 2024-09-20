@@ -243,7 +243,7 @@
         -- ATGM M1134 Stryker ATGM
         -- blueCtld:AddCratesCargo("ATGM Stryker (2)",{"template ATGM Stryker"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
         -- ATGM VAB_Mephisto
-        blueCtld:AddCratesCargo("ATGM VAB (2)",{"tempalte ATGM VAB"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        blueCtld:AddCratesCargo("ATGM VAB (2)",{"template ATGM VAB"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
 
         -- APC BTR-RD
         -- blueCtld:AddCratesCargo("ATGM BTR-RD (2)",{"template BTR-RD"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
