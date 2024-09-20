@@ -6,16 +6,29 @@
 -- JGi | Quéton 1-1
 
 --%%% DEPENDENCIES %%%
--- Moose : >2.9.8 custom, ask me
+-- Moose : >2.9.9 custom, ask me
 -- Unicodes : ☮☐☑☒▮▯⚑⚐✈⏣➳⟳⭮⚒⚔☄⛽
 
 --%%% CHANGELOG %%%
 --[[
+    1.03
+    - Add FARP command et fuel vehicles
+    
+    1.02
+    - Add FARP vehicules supply
+    - Add engineer
+
     1.01
     - Ajusted some crates
 
     1.00
     - Initial
+--]]
+
+--%%% TODO %%%
+--[[
+    Add FARP supply
+    Add ingineer
 --]]
 
 --%%% MAIN OBJECT %%%
@@ -207,6 +220,18 @@
     --> Command exemple to add some cargo :
     -- Var:AddCratesCargo(name,{templates},CTLD_CARGO.Enum.VEHICLE, crates to build, mass, stock)
 
+    -- Command - 1 crate
+        -- M1043 HMMWV Armament
+        blueCtld:AddCratesCargo("HUMVEE (1)",{"template HMMWV"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        -- template UAZ-469
+        -- blueCtld:AddCratesCargo("UAZ-469 (1)",{"template UAZ-469"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+
+    -- Fuel supply
+        -- M978 Refueler
+        blueCtld:AddCratesCargo("M978 refueler (1)",{"template M978"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        -- ATZ-5
+        -- blueCtld:AddCratesCargo("ATZ-5 refueler (1)",{"template ATZ-5"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        
     -- Transport - 1 crate
         -- Truck M939
         blueCtld:AddCratesCargo("Truck M939 (1)",{"template M939"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
@@ -393,10 +418,12 @@
         --FARPFreq = FARPFreq + 1
         FARPName = FARPName + 1
 
-        local SpawnStaticFarp=SPAWNSTATIC:NewFromStatic(templateNameForFARP, country.id.CJTF_BLUE)
+        UTILS.SpawnFARPAndFunctionalStatics(FName,Coordinate,ENUMS.FARPType.INVISIBLE,my_ctld.coalition,country.id.USA,FarpNameNumber,FARPFreq,radio.modulation.AM,nil,nil,nil,10,10)
+        
+        -- local SpawnStaticFarp=SPAWNSTATIC:NewFromStatic(templateNameForFARP, country.id.CJTF_BLUE)
         -- local SpawnStaticFarp=SPAWNSTATIC:NewFromType("Invisible FARP","Heliports", country.id.CJTF_BLUE)
-        SpawnStaticFarp:InitFARP(FARPName, FARPFreq, 0)
-        SpawnStaticFarp:InitDead(false)
+        -- SpawnStaticFarp:InitFARP(FARPName, FARPFreq, 0)
+        -- SpawnStaticFarp:InitDead(false)
 
         local ZoneSpawn = ZONE_RADIUS:New("FARP "..FName,Coordinate:GetVec2(),160,false)
         local Heading = 0
@@ -411,25 +438,25 @@
         windsock:SpawnFromCoordinate(sockcoord,Heading,"Windsock "..FName)
         base=base-delta
 
-        local ammodepot = SPAWNSTATIC:NewFromType("FARP Ammo Dump Coating","Fortifications",country.id.CJTF_BLUE)
-        local ammocoord = coord:Translate(assetDist,base)
-        ammodepot:SpawnFromCoordinate(ammocoord,Heading,"Ammodepot "..FName)
-        base=base-delta
+        -- local ammodepot = SPAWNSTATIC:NewFromType("FARP Ammo Dump Coating","Fortifications",country.id.CJTF_BLUE)
+        -- local ammocoord = coord:Translate(assetDist,base)
+        -- ammodepot:SpawnFromCoordinate(ammocoord,Heading,"Ammodepot "..FName)
+        -- base=base-delta
 
         local Tent1 = SPAWNSTATIC:NewFromType("Container_watchtower_lights","Fortifications",country.id.CJTF_BLUE)
         local Tent1Coord = coord:Translate(assetDist,base)
         Tent1:SpawnFromCoordinate(Tent1Coord,Heading+90,"Command Tent "..FName)
         base=base-delta
 
-        local fueldepot = SPAWNSTATIC:NewFromType("FARP Fuel Depot","Fortifications",country.id.CJTF_BLUE)
-        local fuelcoord = coord:Translate(assetDist,base)
-        fueldepot:SpawnFromCoordinate(fuelcoord,Heading,"Fueldepot "..FName)
-        base=base-delta
+        -- local fueldepot = SPAWNSTATIC:NewFromType("FARP Fuel Depot","Fortifications",country.id.CJTF_BLUE)
+        -- local fuelcoord = coord:Translate(assetDist,base)
+        -- fueldepot:SpawnFromCoordinate(fuelcoord,Heading,"Fueldepot "..FName)
+        -- base=base-delta
 
-        local Tent2 = SPAWNSTATIC:NewFromType("Building08_PBR","Fortifications",country.id.CJTF_BLUE)
-        local Tent2Coord = coord:Translate(assetDist,base)
-        Tent2:SpawnFromCoordinate(Tent2Coord,Heading-90,"Command Tent2 "..FName)
-        base=base-delta
+        -- local Tent2 = SPAWNSTATIC:NewFromType("Building08_PBR","Fortifications",country.id.CJTF_BLUE)
+        -- local Tent2Coord = coord:Translate(assetDist,base)
+        -- Tent2:SpawnFromCoordinate(Tent2Coord,Heading-90,"Command Tent2 "..FName)
+        -- base=base-delta
 
         -- local windsock = SPAWNSTATIC:NewFromStatic("template FARP Dépot de munitions camouflé",country.id.CJTF_BLUE)
         -- local sockcoord = coord:Translate(125,base)
