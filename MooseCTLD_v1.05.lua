@@ -11,6 +11,15 @@
 
 --%%% CHANGELOG %%%
 --[[
+    1.05
+    - add JTAC, TODO : add way to go and search for target
+    - add FAC vehicules, driveable
+    
+    1.04
+    - update FARP Spawn
+    - update cargo mass 2000lbs > 907,184 kg
+    - add Cargo to refill FARP/FOB
+    
     1.03
     - Add FARP command et fuel vehicles
     
@@ -44,6 +53,7 @@
     local templateNameForSoldier = "template soldier"
     local templateNameForAntiTank = "template anti-tank"
     local templateNameForAntiAir = "template anti-air"
+    local templateNameForJTAC = "template JTAC"
     --> For cargos and troops, report templates's names from editor in the right named section below.    
 
 --%%% OPTIONS PREFIX %%%
@@ -200,14 +210,17 @@
     local att = templateNameForAntiTank
     local aat = templateNameForAntiAir
     local inf = templateNameForSoldier
+    local jtac = templateNameForJTAC
     
     --> Command exemple to add troops :
     -- Var:AddTroopsCargo(name,{templates},CTLD_CARGO.Enum.TROOPS,size, mass, stock)
+    
     blueCtld:AddTroopsCargo("Soldier x1",{inf},CTLD_CARGO.Enum.TROOPS,1,100)
     blueCtld:AddTroopsCargo("Anti-Tank x1",{att},CTLD_CARGO.Enum.TROOPS,1,100)
     blueCtld:AddTroopsCargo("Anti-Air x1",{aat},CTLD_CARGO.Enum.TROOPS,1,100)
     blueCtld:AddTroopsCargo("Engineer x1",{inf},CTLD_CARGO.Enum.ENGINEERS,1,100)
-    blueCtld:AddTroopsCargo("Mixed x4",{inf,ing,att,aat},CTLD_CARGO.Enum.TROOPS,4,100)
+    blueCtld:AddTroopsCargo("JTAC x1",{jtac},CTLD_CARGO.Enum.TROOPS,1,100)
+    blueCtld:AddTroopsCargo("Mixed x4",{inf,att,att,aat},CTLD_CARGO.Enum.TROOPS,4,100)
     blueCtld:AddTroopsCargo("Mixed x8",{inf,inf,att,att,att,aat,aat,aat},CTLD_CARGO.Enum.TROOPS,4,100)
     blueCtld:AddTroopsCargo("Mixed x10",{inf,inf,inf,att,att,att,aat,aat,aat,aat},CTLD_CARGO.Enum.TROOPS,10,100)
 
@@ -221,122 +234,131 @@
     -- Var:AddCratesCargo(name,{templates},CTLD_CARGO.Enum.VEHICLE, crates to build, mass, stock)
 
     -- Command - 1 crate
+        -- Cargo FARP
+        blueCtld:AddStaticsCargo("FARP supply",907.184,nil,"Supply / Transport")
         -- M1043 HMMWV Armament
-        blueCtld:AddCratesCargo("HUMVEE (1)",{"template HMMWV"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        blueCtld:AddCratesCargo("HUMVEE (1)",{"template HMMWV"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
         -- template UAZ-469
-        -- blueCtld:AddCratesCargo("UAZ-469 (1)",{"template UAZ-469"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        -- blueCtld:AddCratesCargo("UAZ-469 (1)",{"template UAZ-469"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
 
     -- Fuel supply
         -- M978 Refueler
-        blueCtld:AddCratesCargo("M978 refueler (1)",{"template M978"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        blueCtld:AddCratesCargo("M978 refueler (1)",{"template M978"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
         -- ATZ-5
-        -- blueCtld:AddCratesCargo("ATZ-5 refueler (1)",{"template ATZ-5"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        -- blueCtld:AddCratesCargo("ATZ-5 refueler (1)",{"template ATZ-5"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
         
     -- Transport - 1 crate
         -- Truck M939
-        blueCtld:AddCratesCargo("Truck M939 (1)",{"template M939"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        blueCtld:AddCratesCargo("Truck M939 (1)",{"template M939"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
         -- KrAZ-6322
-        -- blueCtld:AddCratesCargo("Truck KrAZ-6322 (1)",{"template KrAZ-6322"},CTLD_CARGO.Enum.VEHICLE,1,1000,nil, "Supply / Transport")
+        -- blueCtld:AddCratesCargo("Truck KrAZ-6322 (1)",{"template KrAZ-6322"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
         -- blueCtld:AddCratesRepair("Humvee Repair",{"Humvee"},CTLD_CARGO.Enum.REPAIR,1,100,nil, "Supply / Transport")
+
+    -- FAC - 1 crate
+        -- FAC Land Rover
+        blueCtld:AddCratesCargo("JTAC Land Rover (1)",{"template FAC Land Rover"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
+        -- FAC UAZ-469
+        -- blueCtld:AddCratesCargo("JTAC UAZ-469 (1)",{"template FAC UAZ-469"},CTLD_CARGO.Enum.VEHICLE,1,907.184,nil, "Supply / Transport")
+        
 
     -- ATGM - 1c
         -- ATGM M1134 Stryker ATGM
-        -- blueCtld:AddCratesCargo("ATGM Stryker (2)",{"template ATGM Stryker"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        -- blueCtld:AddCratesCargo("ATGM Stryker (2)",{"template ATGM Stryker"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
         -- ATGM VAB_Mephisto
-        blueCtld:AddCratesCargo("ATGM VAB (2)",{"template ATGM VAB"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        blueCtld:AddCratesCargo("ATGM VAB (2)",{"template ATGM VAB"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
 
         -- APC BTR-RD
-        -- blueCtld:AddCratesCargo("ATGM BTR-RD (2)",{"template BTR-RD"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        -- blueCtld:AddCratesCargo("ATGM BTR-RD (2)",{"template BTR-RD"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
 
     -- IFV / APC - 2c
         -- APC MRAP MaxxPro
-        blueCtld:AddCratesCargo("APC MRAP MaxxPro (2)",{"template APC MRAP"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        blueCtld:AddCratesCargo("APC MRAP MaxxPro (2)",{"template APC MRAP"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
         -- APC M1126 Stryker
-        -- blueCtld:AddCratesCargo("APC Stryker (2)",{"tempalte APC Stryker"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        -- blueCtld:AddCratesCargo("APC Stryker (2)",{"tempalte APC Stryker"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
         -- IFV M2A2 Bradley
-        -- blueCtld:AddCratesCargo("IFV M2A2 Bradley (2)",{"template IFV Bradley"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        -- blueCtld:AddCratesCargo("IFV M2A2 Bradley (2)",{"template IFV Bradley"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
 
         -- APC BTR-82A
-        -- blueCtld:AddCratesCargo("APC BTR-82A (2)",{"template APC BTR-82A"},CTLD_CARGO.Enum.VEHICLE,2,1000,nil, "Ground Offensive")
+        -- blueCtld:AddCratesCargo("APC BTR-82A (2)",{"template APC BTR-82A"},CTLD_CARGO.Enum.VEHICLE,2,907.184,nil, "Ground Offensive")
 
     -- ARTILLERY - 4c
 
     -- MBT - 4c
         -- MBT Leclerc
-        blueCtld:AddCratesCargo("MBT Leclerc (4)",{"template MBT Leclerc"},CTLD_CARGO.Enum.VEHICLE,4,1000, nil, "Ground Offensive")
+        blueCtld:AddCratesCargo("MBT Leclerc (4)",{"template MBT Leclerc"},CTLD_CARGO.Enum.VEHICLE,4,907.184, nil, "Ground Offensive")
         -- MBT T-72B3
-        -- blueCtld:AddCratesCargo("MBT T-72B3 (4)",{"template MBT T-72B"},CTLD_CARGO.Enum.VEHICLE,4,1000, nil, "Ground Offensive")
+        -- blueCtld:AddCratesCargo("MBT T-72B3 (4)",{"template MBT T-72B"},CTLD_CARGO.Enum.VEHICLE,4,907.184, nil, "Ground Offensive")
 
     -- AAA canon - 1c
         -- Bofors
-        blueCtld:AddCratesCargo("AAA Bofors canon (2)",{"template AAA Bofors"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        blueCtld:AddCratesCargo("AAA Bofors canon (2)",{"template AAA Bofors"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
 
         -- S-60
-        -- blueCtld:AddCratesCargo("AAA S-60 Canon (2)",{"template AAA S-60"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        -- blueCtld:AddCratesCargo("AAA S-60 Canon (2)",{"template AAA S-60"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
         -- KS-100
-        --blueCtld:AddCratesCargo("AAA KS-19 Canon (2)",{"template AAA KS-19"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        --blueCtld:AddCratesCargo("AAA KS-19 Canon (2)",{"template AAA KS-19"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
 
     -- AAA - 2c
         -- Vulcan
-        -- blueCtld:AddCratesCargo("AAA Vulcan (2)",{"template AAA Vulcan"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        -- blueCtld:AddCratesCargo("AAA Vulcan (2)",{"template AAA Vulcan"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
         -- C-RAM
-        blueCtld:AddCratesCargo("AAA C-RAM (2)",{"template AAA C-RAM"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        blueCtld:AddCratesCargo("AAA C-RAM (2)",{"template AAA C-RAM"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
 
         -- LC ZU-23
-        --blueCtld:AddCratesCargo("AAA LC ZU-23 (2)",{"template AAA LC ZU-23"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        --blueCtld:AddCratesCargo("AAA LC ZU-23 (2)",{"template AAA LC ZU-23"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
         -- Shilka
-        --blueCtld:AddCratesCargo("AAA Shilka (2)",{"template AAA Shilka"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Anti Air Defence")
+        --blueCtld:AddCratesCargo("AAA Shilka (2)",{"template AAA Shilka"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Anti Air Defence")
         
-    -- SAM SR - 2c
+    -- SAM SR - 4c
         -- SAM Avenger M1097
-        -- blueCtld:AddCratesCargo("SAM SR Avenger (4)",{"template SAM Avenger"},CTLD_CARGO.Enum.VEHICLE,4,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM SR Avenger (4)",{"template SAM Avenger"},CTLD_CARGO.Enum.VEHICLE,4,907.184, nil, "Surface-to-Air Missile")
         -- SAM Chaparral (CW)
-        -- blueCtld:AddCratesCargo("SAM SR Chaparral (4)",{"template SAM Chaparral"},CTLD_CARGO.Enum.VEHICLE,24,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM SR Chaparral (4)",{"template SAM Chaparral"},CTLD_CARGO.Enum.VEHICLE,24,907.184, nil, "Surface-to-Air Missile")
         -- SAM M6 Linebacker
-        -- blueCtld:AddCratesCargo("SAM SR M6 Linebacker (4)",{"template SAM Linebacker"},CTLD_CARGO.Enum.VEHICLE,4,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM SR M6 Linebacker (4)",{"template SAM Linebacker"},CTLD_CARGO.Enum.VEHICLE,4,907.184, nil, "Surface-to-Air Missile")
         -- SAM Rapier
-        blueCtld:AddCratesCargo("SAM SR Rapier (4)",{"template SAM Rapier"},CTLD_CARGO.Enum.VEHICLE,4,1000, nil, "Surface-to-Air Missile")
+        blueCtld:AddCratesCargo("SAM SR Rapier (4)",{"template SAM Rapier"},CTLD_CARGO.Enum.VEHICLE,4,907.184, nil, "Surface-to-Air Missile")
 
         -- SAM SA-9 Strela
-        --blueCtld:AddCratesCargo("SAM SR SA-9 Strela (2)",{"template SAM SA-9"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Surface-to-Air Missile")
+        --blueCtld:AddCratesCargo("SAM SR SA-9 Strela (2)",{"template SAM SA-9"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Surface-to-Air Missile")
         -- SAM SA-19 Tungunska
-        --blueCtld:AddCratesCargo("SAM SR SA-19 Tungunska (2)",{"template SAM SA-19"},CTLD_CARGO.Enum.VEHICLE,2,1000, nil, "Surface-to-Air Missile")
+        --blueCtld:AddCratesCargo("SAM SR SA-19 Tungunska (2)",{"template SAM SA-19"},CTLD_CARGO.Enum.VEHICLE,2,907.184, nil, "Surface-to-Air Missile")
 
-    -- SAM MR - 4c
+    -- SAM MR - 6c
         -- SAM Nasams
-        blueCtld:AddCratesCargo("SAM MR Nasams (6)",{"template SAM Nasams"},CTLD_CARGO.Enum.VEHICLE,6,1000, nil, "Surface-to-Air Missile")
+        blueCtld:AddCratesCargo("SAM MR Nasams (6)",{"template SAM Nasams"},CTLD_CARGO.Enum.VEHICLE,6,907.184, nil, "Surface-to-Air Missile")
         -- SA-8 Osa
-        -- blueCtld:AddCratesCargo("SAM MR SA-8 Osa (6)",{"template SAM SA-8"},CTLD_CARGO.Enum.VEHICLE,6,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM MR SA-8 Osa (6)",{"template SAM SA-8"},CTLD_CARGO.Enum.VEHICLE,6,907.184, nil, "Surface-to-Air Missile")
         -- SA-15 Tor
-        -- blueCtld:AddCratesCargo("SAM MR SA-15 Tor (6)",{"template SAM SA-15"},CTLD_CARGO.Enum.VEHICLE,6,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM MR SA-15 Tor (6)",{"template SAM SA-15"},CTLD_CARGO.Enum.VEHICLE,6,907.184, nil, "Surface-to-Air Missile")
         -- SA-6 Kub
-        --blueCtld:AddCratesCargo("SAM MR SA-6 Kub (6)",{"template SAM SA-6"},CTLD_CARGO.Enum.VEHICLE,6,1000, nil, "Surface-to-Air Missile")
+        --blueCtld:AddCratesCargo("SAM MR SA-6 Kub (6)",{"template SAM SA-6"},CTLD_CARGO.Enum.VEHICLE,6,907.184, nil, "Surface-to-Air Missile")
 
-    -- SAM LR - 6c
+    -- SAM LR - 8c
         -- SAM Hawk
-        -- blueCtld:AddCratesCargo("SAM LR Hawk (8)",{"template SAM Hawk"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM LR Hawk (8)",{"template SAM Hawk"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Surface-to-Air Missile")
         -- SAM Patriot
-        -- blueCtld:AddCratesCargo("SAM LR Patriot (10)",{"template SAM Patriot"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Surface-to-Air Missile")
+        -- blueCtld:AddCratesCargo("SAM LR Patriot (10)",{"template SAM Patriot"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Surface-to-Air Missile")
 
         -- SA-11 Buk
-        --blueCtld:AddCratesCargo("SAM LR SA-11 Buk (8)",{"template SAM SA-11"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Surface-to-Air Missile")
+        --blueCtld:AddCratesCargo("SAM LR SA-11 Buk (8)",{"template SAM SA-11"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Surface-to-Air Missile")
         -- SA-10 S-300 Grumble
-        --blueCtld:AddCratesCargo("SAM LR SA-10 Grumble (10)",{"template SAM SA-10"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Surface-to-Air Missile")
+        --blueCtld:AddCratesCargo("SAM LR SA-10 Grumble (10)",{"template SAM SA-10"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Surface-to-Air Missile")
 
     -- EWR - 6c
         -- EWR AN/FPS 117 Radar
-        blueCtld:AddCratesCargo("EWR AN/FPS 117 (8)",{"template EWR AN/FPS-117"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Supply / Transport")
+        blueCtld:AddCratesCargo("EWR AN/FPS 117 (8)",{"template EWR AN/FPS-117"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Supply / Transport")
 
         -- EWR 1L13
-        --blueCtld:AddCratesCargo("EWR 1L13 (8)",{"template EWR 1L13"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Supply / Transport")
+        --blueCtld:AddCratesCargo("EWR 1L13 (8)",{"template EWR 1L13"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Supply / Transport")
         -- EWR 55G6
-        --blueCtld:AddCratesCargo("EWR 55G6 (8)",{"template EWR 55G6"},CTLD_CARGO.Enum.VEHICLE,8,1000, nil, "Supply / Transport")
+        --blueCtld:AddCratesCargo("EWR 55G6 (8)",{"template EWR 55G6"},CTLD_CARGO.Enum.VEHICLE,8,907.184, nil, "Supply / Transport")
 
     -- Other
         -- blueCtld:AddStaticsCargo("Ammunition",500)
 
 --%%% FOB %%%
-    blueCtld:AddCratesCargo("FOB/FARP (6)",{templateNameForFOB,},CTLD_CARGO.Enum.FOB,6,1000, nil, "Supply / Transport")
+    blueCtld:AddCratesCargo("FOB/FARP (6)",{templateNameForFOB,},CTLD_CARGO.Enum.FOB,6,907.184, nil, "Supply / Transport")
     local FARPFreq = 225.1
     local FARPName = 1 -- numbers 1..10
     local FARPClearnames = {
@@ -410,7 +432,27 @@
     --         end
     --     end
     -- end
+    function BuildAFARP(Coordinate)
+        local coord = Coordinate  --Core.Point#COORDINATE
+        local FarpNameNumber = ((FARPName-1)%10)+1 -- make sure 11 becomes 1 etc
+        local FName = FARPClearnames[FarpNameNumber] -- get clear namee
+        FARPName = FARPName + 1
+ 
+        FName = FName .. " FAT COW "..tostring(FARPFreq).."AM" -- make name unique
+ 
+        -- Get a Zone for loading 
+        local ZoneSpawn = ZONE_RADIUS:New("FARP "..FName,Coordinate:GetVec2(),150,false)
+ 
+        -- Spawn a FARP with our little helper and fill it up with resources (10t fuel each type, 10 pieces of each known equipment)
+        UTILS.SpawnFARPAndFunctionalStatics(FName,Coordinate,ENUMS.FARPType.INVISIBLE,blueCtld.coalition,country.id.CJTF_BLUE,FarpNameNumber,FARPFreq,radio.modulation.AM,nil,nil,nil,10,10)
+ 
+        -- add a loadzone to CTLD
+        my_ctld:AddCTLDZone("FARP "..FName,CTLD.CargoZoneType.LOAD,SMOKECOLOR.Blue,true,true)
+        local m  = MESSAGE:New(string.format("FARP %s in operation!",FName),15,"CTLD"):ToBlue() 
+      end
+ 
 
+    
     function BuildAFARP(Coordinate)
         local coord = Coordinate
         local FarpName = ((FARPName-1)%10)+1
@@ -418,16 +460,15 @@
         --FARPFreq = FARPFreq + 1
         FARPName = FARPName + 1
 
-        UTILS.SpawnFARPAndFunctionalStatics(FName,Coordinate,ENUMS.FARPType.INVISIBLE,my_ctld.coalition,country.id.USA,FarpNameNumber,FARPFreq,radio.modulation.AM,nil,nil,nil,10,10)
+        UTILS.SpawnFARPAndFunctionalStatics(FName,Coordinate,ENUMS.FARPType.INVISIBLE,blueCtld.coalition,country.id.CJTF_BLUE,FarpNameNumber,FARPFreq,radio.modulation.AM,nil,nil,nil,10,10)
         
         -- local SpawnStaticFarp=SPAWNSTATIC:NewFromStatic(templateNameForFARP, country.id.CJTF_BLUE)
         -- local SpawnStaticFarp=SPAWNSTATIC:NewFromType("Invisible FARP","Heliports", country.id.CJTF_BLUE)
         -- SpawnStaticFarp:InitFARP(FARPName, FARPFreq, 0)
         -- SpawnStaticFarp:InitDead(false)
 
-        local ZoneSpawn = ZONE_RADIUS:New("FARP "..FName,Coordinate:GetVec2(),160,false)
+        local ZoneSpawn = ZONE_RADIUS:New("FARP "..FName,Coordinate:GetVec2(),150,false)
         local Heading = 0
-        local FarpBerlin=SpawnStaticFarp:SpawnFromZone(ZoneSpawn, Heading, "FARP "..FName)
 
         local base = 270 --330
         local delta = 7
@@ -438,15 +479,15 @@
         windsock:SpawnFromCoordinate(sockcoord,Heading,"Windsock "..FName)
         base=base-delta
 
-        -- local ammodepot = SPAWNSTATIC:NewFromType("FARP Ammo Dump Coating","Fortifications",country.id.CJTF_BLUE)
-        -- local ammocoord = coord:Translate(assetDist,base)
-        -- ammodepot:SpawnFromCoordinate(ammocoord,Heading,"Ammodepot "..FName)
-        -- base=base-delta
-
         local Tent1 = SPAWNSTATIC:NewFromType("Container_watchtower_lights","Fortifications",country.id.CJTF_BLUE)
         local Tent1Coord = coord:Translate(assetDist,base)
         Tent1:SpawnFromCoordinate(Tent1Coord,Heading+90,"Command Tent "..FName)
         base=base-delta
+
+        -- local ammodepot = SPAWNSTATIC:NewFromType("FARP Ammo Dump Coating","Fortifications",country.id.CJTF_BLUE)
+        -- local ammocoord = coord:Translate(assetDist,base)
+        -- ammodepot:SpawnFromCoordinate(ammocoord,Heading,"Ammodepot "..FName)
+        -- base=base-delta
 
         -- local fueldepot = SPAWNSTATIC:NewFromType("FARP Fuel Depot","Fortifications",country.id.CJTF_BLUE)
         -- local fuelcoord = coord:Translate(assetDist,base)
@@ -468,19 +509,6 @@
         -- FarpVehicles:InitHeading(180)
         -- local FarpVCoord = coord:Translate(assetDist,0)
         -- FarpVehicles:SpawnFromCoordinate(FarpVCoord)
-
-        -- local function addmystuff(array)
-        --     --500000 is not required but its a good large figure for now
-        --     Airbase.getByName(FARPName):getWarehouse():setLiquidAmount(0,500000)
-        --     --iterate over each uber warehouse item and add nuclear stockpile
-        --     for warei, wared in pairs(warehouseModel) do
-        --         Airbase.getByName(farpname):getWarehouse():setItem(wared,500000)
-        --     end
-        --     return nil
-        -- end
-
-        -- --schedule function 5 seconds after the FARP has been made so the game has time to init the plate
-        -- timer.scheduleFunction(addmystuff, {1}, timer.getTime() + 5)
 
         blueCtld:AddCTLDZone("FARP "..FName,CTLD.CargoZoneType.LOAD,SMOKECOLOR.Blue,true,true)
         local m  = MESSAGE:New(string.format("FARP %s in operation!",FName),15,"CTLD"):ToBlue() 
