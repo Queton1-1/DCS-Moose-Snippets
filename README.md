@@ -11,7 +11,7 @@ Requiert l'intégration de la librairie Moose
 
 **MooseCTLD** : CTLD based on Moose
   
-**template_CTLD_map_version** : modèles d'unité CTLD à placer dans Saved Game\DCS\StaticTemplate et à appeller dans l'éditeur de mission.  
+**template_CTLD** : modèles d'unité CTLD à placer dans Saved Game\DCS\StaticTemplate et à appeler dans l'éditeur de mission.  
 
 o7  
 
