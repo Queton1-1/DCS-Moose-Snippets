@@ -20,7 +20,7 @@ Pour intégrer Moose à votre mission,
   -> A charger dans l'éditeur après le chargement de Moose, ne pas oublier de charger les sons ``beacon.ogg`` et ``beaconsilent.ogg``   
   ``MooseCTLD_blue_v1.xx.lua`` : CTLD pour la coalition bleu  
   ``MooseCTLD_red_v1.xx.lua`` : CTLD pour la coalition rouge  
-  ``MooseCTLD_saver_v1.xx.lua`` : pour savegarder vos unités déposées. 
+  ``MooseCTLD_saver_v1.xx.lua`` : pour savegarder vos unités déposées.  
   ``template_CTLD_v1.xx.zip`` : modèles d'unité CTLD à placer dans ``Saved Game\DCS\StaticTemplate`` et à appeler dans l'éditeur de mission.  
   
 o7  
