@@ -12,7 +12,7 @@ Pour intégrer Moose à votre mission,
   
 **MooseRAT** : fonctionnalité Random Air Traffic  
   
-**Moose_snippet_Spawn** : spawn d'unité  
+**MooseSpawn_1.08a.lua** : spawn d'unité  
   
 **Moose_OpsChief** : fonctionnalité Chief/Auftrag  
 
