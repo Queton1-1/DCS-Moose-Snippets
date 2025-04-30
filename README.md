@@ -6,9 +6,9 @@ Requiert l'intégration de la librairie Moose
 Pour intégrer Moose à votre mission,  
 Téléchargez Moose : [Lien vers Moose](https://github.com/FlightControl-Master/MOOSE/releases)  
 Dans l'éditeur de mission de DCS,  
-créez un **_déclencheur_** de type ``une fois`` avec le nom de votre choix, 
-ajoutez une **_condition_** ``tps sup à : 1s``, 
-puis ajoutez une **_action_** ``charger script`` avec le script **Moose**.
+créez un **_déclencheur_** de type ``une fois`` avec le nom de votre choix,  
+ajoutez une **_condition_** ``tps sup à : 1s``,   
+puis ajoutez une **_action_** ``charger script`` avec le script **Moose**.  
 
 **MooseRAT** : fonctionnalité Random Air Traffic  
   
