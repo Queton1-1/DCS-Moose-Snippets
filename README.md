@@ -1,9 +1,9 @@
 # DCS-Moose-Snippets
 
 Quelques morceaux de code ("Snippet") à ajuster et intégrer dans vos partie à partir de l'éditeur.  
-Requiert l'intégration de la librairie Moose    
+Requiert l'intégration de la librairie Moose  
 
-Pour intégrer Moose à votre mission, 
+Pour intégrer Moose à votre mission,  
 Téléchargez Moose : [Lien vers Moose](https://github.com/FlightControl-Master/MOOSE/releases)  
 Dans l'éditeur de mission de DCS,  
 créez un déclencheur de type **une fois** avec le nom de votre choix, 
