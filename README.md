@@ -9,7 +9,7 @@ Pour intégrer Moose à votre mission,
 * créez un **_déclencheur_** de type ``une fois`` avec le nom de votre choix,  
 * ajoutez une **_condition_** ``tps sup à : 1s``,   
 * puis ajoutez une **_action_** ``charger script`` avec le script **Moose**.  
-
+  
 **MooseRAT** : fonctionnalité Random Air Traffic  
   
 **Moose_snippet_Spawn** : spawn d'unité  
