@@ -16,8 +16,12 @@ Pour intégrer Moose à votre mission,
   
 **Moose_OpsChief** : fonctionnalité Chief/Auftrag  
 
-**MooseCTLD** : CTLD based on Moose  
-  -> A charger dans l'éditeur après le chargement de Moose, ne pas oublier de charger les sons beacon.ogg et beaconsilent.ogg
+**MooseCTLD** : CTLD basé sur Moose  
+  -> A charger dans l'éditeur après le chargement de Moose, ne pas oublier de charger les sons ``beacon.ogg`` et ``beaconsilent.ogg``   
+  ``MooseCTLD_blue_v1.xx.lua`` : CTLD pour la coalition bleu  
+  ``MooseCTLD_red_v1.xx.lua`` : CTLD pour la coalition rouge  
+  ``MooseCTLD_saver_v1.xx.lua`` : pour savegarder vos unités déposées. 
+  
   
 **template_CTLD** : modèles d'unité CTLD à placer dans ``Saved Game\DCS\StaticTemplate`` et à appeler dans l'éditeur de mission.  
   
