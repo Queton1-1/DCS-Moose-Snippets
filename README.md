@@ -4,11 +4,11 @@ Quelques morceaux de code ("Snippet") à ajuster et intégrer dans vos partie à
 Requiert l'intégration de la librairie Moose  
 
 Pour intégrer Moose à votre mission,  
-Téléchargez Moose : [Lien vers Moose](https://github.com/FlightControl-Master/MOOSE/releases)  
+Téléchargez Moose : ``[Lien vers Moose](https://github.com/FlightControl-Master/MOOSE/releases)``  
 Dans l'éditeur de mission de DCS,  
-créez un déclencheur de type **une fois** avec le nom de votre choix, 
-ajoutez une condition **tps sup à : 1s**, 
-puis ajoutez une action **charger script** avec le script Moose.
+créez un déclencheur de type ``une fois`` avec le nom de votre choix, 
+ajoutez une condition ``tps sup à : 1s``, 
+puis ajoutez une action ``charger script`` avec le script Moose.
 
 **MooseRAT** : fonctionnalité Random Air Traffic  
   
