@@ -21,9 +21,7 @@ Pour intégrer Moose à votre mission,
   ``MooseCTLD_blue_v1.xx.lua`` : CTLD pour la coalition bleu  
   ``MooseCTLD_red_v1.xx.lua`` : CTLD pour la coalition rouge  
   ``MooseCTLD_saver_v1.xx.lua`` : pour savegarder vos unités déposées. 
-  
-  
-**template_CTLD** : modèles d'unité CTLD à placer dans ``Saved Game\DCS\StaticTemplate`` et à appeler dans l'éditeur de mission.  
+  ``template_CTLD_v1.xx.zip`` : modèles d'unité CTLD à placer dans ``Saved Game\DCS\StaticTemplate`` et à appeler dans l'éditeur de mission.  
   
 o7  
 
