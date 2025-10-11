@@ -3,8 +3,8 @@
 Quelques morceaux de code ("Snippet") à ajuster et intégrer dans vos partie à partir de l'éditeur.  
 Requiert l'intégration de la librairie Moose  
 
-MOOSE  
-------  
+Moose  
+--  
 Pour intégrer Moose à votre mission,  
 * Téléchargez Moose : [Lien vers Moose](https://github.com/FlightControl-Master/MOOSE/releases)  
 * Dans l'éditeur de mission de DCS,  
@@ -12,9 +12,9 @@ Pour intégrer Moose à votre mission,
   * ajoutez une **_condition_** ``tps sup à : 1s``,   
   * puis ajoutez une **_action_** ``charger script`` avec le script **Moose**.  
 
-RANDOM AIR TRAFFIC  
+RAT  
 --  
-**MooseRAT** : fonctionnalité Random Air Traffic  
+**MooseRAT.lua** : fonctionnalité Random Air Traffic  
 
 SPAWN  
 --  
@@ -22,7 +22,7 @@ SPAWN
 
 OPS CHIEF  
 --  
-**Moose_OpsChief** : fonctionnalité Chief/Auftrag  
+**Moose_OpsChief.lua** : fonctionnalité Chief/Auftrag  
 
 CTLD  
 --  
