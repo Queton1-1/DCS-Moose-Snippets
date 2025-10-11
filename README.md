@@ -3,19 +3,29 @@
 Quelques morceaux de code ("Snippet") à ajuster et intégrer dans vos partie à partir de l'éditeur.  
 Requiert l'intégration de la librairie Moose  
 
+MOOSE  
+------  
 Pour intégrer Moose à votre mission,  
 * Téléchargez Moose : [Lien vers Moose](https://github.com/FlightControl-Master/MOOSE/releases)  
 * Dans l'éditeur de mission de DCS,  
   * créez un **_déclencheur_** de type ``une fois`` avec le nom de votre choix,  
   * ajoutez une **_condition_** ``tps sup à : 1s``,   
   * puis ajoutez une **_action_** ``charger script`` avec le script **Moose**.  
-  
+
+RANDOM AIR TRAFFIC  
+--  
 **MooseRAT** : fonctionnalité Random Air Traffic  
-  
+
+SPAWN  
+--  
 **MooseSpawn_1.08a.lua** : spawn d'unité  
-  
+
+OPS CHIEF  
+--  
 **Moose_OpsChief** : fonctionnalité Chief/Auftrag  
 
+CTLD  
+--  
 **MooseCTLD** : CTLD basé sur Moose  
   -> A charger dans l'éditeur après le chargement de Moose, ne pas oublier de charger les sons ``beacon.ogg`` et ``beaconsilent.ogg``   
   ``MooseCTLD_blue_v1.xx.lua`` : CTLD pour la coalition bleu  
