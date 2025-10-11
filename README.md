@@ -22,11 +22,11 @@ SPAWN
 
 OPS CHIEF  
 --  
-**Moose_OpsChief.lua** : fonctionnalité Chief/Auftrag  
+**Moose_OpsChief.lua** : fonctionnalité Chief/Auftrag, permet de construire des systèmes de CAP complexes  
 
 CTLD  
 --  
-**MooseCTLD** : CTLD basé sur Moose  
+**MooseCTLD** : CTLD basé sur Moose, permet le transport et le deploiement d'unités  
   -> A charger dans l'éditeur après le chargement de Moose, ne pas oublier de charger les sons ``beacon.ogg`` et ``beaconsilent.ogg``   
   ``MooseCTLD_blue_v1.xx.lua`` : CTLD pour la coalition bleu  
   ``MooseCTLD_red_v1.xx.lua`` : CTLD pour la coalition rouge  
@@ -35,7 +35,7 @@ CTLD
 
 CSAR    
 --  
-**MooseCSARxxx.lua** : CSAR basé sur Moose  
+**MooseCSARxxx.lua** : CSAR basé sur Moose, permet d'effectuer des missions de sauvetage de pilotes crashés.  
   
 o7  
 
