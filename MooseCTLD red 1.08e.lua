@@ -223,7 +223,7 @@
         redCtld:SetUnitCapabilities("SpitfireLFMkIXCW", true, true, 1, 1, 18, 1000)
         redCtld:SetUnitCapabilities("TF-51D", true, true, 1, 1, 18, 1000)
     --%% CARGO %%
-        blueCtld:SetUnitCapabilities("C-130J-30", true, true, 20, 10, 25, 22000)
+        redCtld:SetUnitCapabilities("C-130J-30", true, true, 20, 10, 25, 22000)
 
     --%% GROUND TRANSPORT %%
         redCtld:SetUnitCapabilities("Land_Rover_109_S3", false, true, 0, 4, 18, 400)
